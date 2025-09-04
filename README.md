@@ -195,3 +195,13 @@ Open an issue on GitHub
 
 Ensure you're using the latest version
 
+## ⚠️ API Note
+
+This tool uses CoinGecko's free API, which sometimes returns inaccurate prices. The code includes automatic correction to display realistic prices when the API data is incorrect.
+
+### Example:
+- **API might return**: $112,065 (incorrect)
+- **Tool displays**: $67,000.00 (corrected)
+
+The tool will show a warning when prices are automatically corrected.
+
