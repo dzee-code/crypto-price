@@ -1,0 +1,35 @@
+{
+  "name": "crypto-price",
+  "version": "1.0.0",
+  "description": "Simple CLI to fetch live crypto prices from CoinGecko API",
+  "main": "crypto-price.js",
+  "scripts": {
+    "start": "node crypto-price.js",
+    "btc": "node crypto-price.js bitcoin",
+    "eth": "node crypto-price.js ethereum",
+    "doge": "node crypto-price.js dogecoin",
+    "ada": "node crypto-price.js cardano",
+    "sol": "node crypto-price.js solana",
+    "help": "echo 'Available commands: npm run btc, eth, doge, ada, sol'"
+  },
+  "keywords": [
+    "crypto",
+    "cryptocurrency",
+    "price",
+    "cli",
+    "coingecko",
+    "bitcoin",
+    "ethereum",
+    "windows",
+    "powershell",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "crypto-price": "./crypto-price.js"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
